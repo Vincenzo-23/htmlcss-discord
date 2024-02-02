@@ -1,0 +1,222 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+
+ol,
+ul,
+menu{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+	color: currentColor;
+}
+
+
+/* LAYOUT */
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+/* HEADER */
+
+
+.section-header{
+    background-color: beige;
+    padding: 15px;
+}
+
+
+
+
+
+.col-20{
+    width: 20%;
+    
+}
+
+.section-header .col-60{
+    width: 60%;
+    text-align: center;
+}
+
+
+
+
+/* MAIN */
+
+
+/* Main header */
+
+.main-header {
+    background-color: blue;
+    padding: 40px;
+}
+
+
+.main-header .container{
+    width: 700px;
+}
+
+.col-100{
+    width: 100%;
+}
+
+
+
+/* Main chat */
+
+.main-chat{
+    padding: 40px;
+}
+
+
+.main-chat .col-60{
+    width: 60%;
+    
+}
+
+.col-40{
+    width: 40%;
+}
+
+
+/* Main group */
+
+.main-group .col-60{
+    width: 60%;
+    
+}
+
+
+.main-group .row{
+    flex-direction: row-reverse;
+}
+
+.main-group{
+    background-color: #dedede;
+    padding: 40px;
+}
+
+
+
+/* Main calls */
+
+.main-calls{
+    padding: 40px;
+}
+
+.main-calls .col-60{
+    width: 60%;
+}
+
+
+
+/* Main servers */
+
+.main-servers{
+    background-color: #dedede;
+    padding: 40px;
+}
+
+.main-servers .col-100{
+    
+}
+
+
+
+
+
+
+/* Top footer */
+
+
+.top-footer{
+    background-color: rgb(73, 71, 71);
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.top-footer .col-16{
+        width: calc(100%/6);
+}
+
+.top-footer .col-36{
+        width: calc(100%/6*2);
+    }
+
+
+
+
+/* Footer bar */
+
+
+
+.footer-bar{
+    background-color: rgb(73, 71, 71);
+    border-top: 2px solid lightgray;
+}
+
+
+
+
+.footer-bar .col-50{
+    background-color: beige;
+   }
+
+.footer-bar .row{
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* DEBUG */
+
+/* .debug .container{
+    border: 2px solid rgb(255, 251, 0);
+    padding: 20px;
+} */
+
+/* .debug .row {
+    border: 2px solid rgb(255, 0, 0);
+    padding: 20px;
+} */
+
+.debug [class^="col"] {
+    border: 2px solid rgb(3, 1, 2);
+    padding: 40px;
+    min-height: 100px;
+}
