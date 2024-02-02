@@ -337,6 +337,10 @@ a{
         padding-bottom: 8px;
     }
 
+
+
+    
+
 /* Footer bar */
 
 
@@ -344,17 +348,26 @@ a{
 .footer-bar{
     background-color: rgb(73, 71, 71);
     border-top: 2px solid lightgray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.button-signin{
+    background-color: rgb(142, 161, 225);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 15px;
+    font-weight: 700;
 }
 
 
 
-
-.footer-bar .col-50{
-    background-color: beige;
-   }
-
 .footer-bar .row{
     justify-content: space-between;
+    align-items: center;
 }
 
 
