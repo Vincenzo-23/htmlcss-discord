@@ -47,6 +47,17 @@ a{
 }
 
 
+.nav .row{
+    justify-content: space-between;
+}
+
+.nav .row-link{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
 
 
 
