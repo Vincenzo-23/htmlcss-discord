@@ -146,6 +146,21 @@ a{
     width: 40%;
 }
 
+.main-chat .container .row{
+    align-items: flex-start;
+}
+
+.main-chat-title{
+    font-size: 44px;
+    padding-bottom: 10px;
+}
+
+.main-chat-paragraph{
+    font-size: 20px;
+}
+
+
+
 
 /* Main group */
 
