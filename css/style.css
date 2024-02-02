@@ -30,7 +30,7 @@ a{
 /* LAYOUT */
 
 .container{
-    max-width: 800px;
+    max-width: 1250px;
     margin: 0 auto;
 }
 
@@ -67,9 +67,9 @@ a{
 
 
 .button-accedi{
-    border-radius: 10px;
-    font-size: 20px;
-    padding: 5px;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 12px;
     border: none;
 }
 
@@ -109,13 +109,13 @@ a{
 .main-header-title{
     font-size: 44px;
     color: white;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 
 .main-header-description{
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     color: white;
     padding-bottom: 20px;
 }
@@ -123,12 +123,17 @@ a{
 
 .main-header-button{
     border: none;
-    border-radius: 10px;
+    border-radius: 30px;
     font-size: 20px;
-    padding: 5px;
+    padding: 20px;
+    margin: 10px;
 
 }
 
+.button-black{
+    background-color: black;
+    color: white;
+}
 
 
 
@@ -136,7 +141,7 @@ a{
 /* Main chat */
 
 .main-chat{
-    padding: 80px;
+    padding: 100px 0;
 }
 
 
@@ -180,7 +185,7 @@ a{
 
 .main-group{
     background-color: #dedede;
-    padding: 80px;
+    padding: 100px 0;
     
 }
 
@@ -189,7 +194,7 @@ a{
 
 .main-group-title{
     font-size: 44px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .main-group-paragraph{
@@ -201,7 +206,7 @@ a{
 /* Main calls */
 
 .main-calls{
-    padding: 40px;
+    padding: 100px 0;
 }
 
 .main-calls .col-60{
@@ -209,12 +214,23 @@ a{
 }
 
 
+.main-calls-title{
+    font-size: 44px;
+    padding-bottom: 15px;
+}
+
+.main-calls-paragraph{
+    font-size: 20px;
+}
+
+
+
 
 /* Main servers */
 
 .main-servers{
     background-color: #dedede;
-    padding: 40px;
+    padding: 100px 0;
 }
 
 .col-100{
@@ -222,8 +238,49 @@ a{
 }
 
 
+.main-servers .container .row .col-100{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-servers-title{
+    text-align: center;
+    font-size: 44px;
+    padding-bottom: 20px;
+    width: 80%;
+}
+
+.main-servers-paragraph{
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+}
 
 
+
+
+.main-servers-subtitle{
+    font-size: 30px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 40px;
+}
+
+
+.button-download{
+    background-color: rgb(142, 161, 225);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+    font-weight: 700;
+   
+    
+}
 
 
 /* Top footer */
