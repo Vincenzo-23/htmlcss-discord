@@ -288,6 +288,8 @@ a{
 
 .top-footer{
     background-color: rgb(73, 71, 71);
+    padding-top: 50px;
+    padding-bottom: 20px;
     
 }
 
@@ -300,7 +302,40 @@ a{
     }
 
 
+    .top-footer-title{
+        color: rgb(142, 161, 225);
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
 
+    .italian-flag{
+        width: 20px;
+    }
+
+    .button-language{
+        border: none;
+        background-color: inherit;
+        padding-bottom: 10px;
+        color: white;
+    }
+
+
+    .top-footer-links{
+        color: white;
+    }
+
+
+    .top-footer-subtitle{
+        color: rgb(142, 161, 225);
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+
+
+    .top-footer-options{
+        color: white;
+        padding-bottom: 8px;
+    }
 
 /* Footer bar */
 
