@@ -302,6 +302,12 @@ a{
     }
 
 
+.top-footer .container{
+    border-bottom: 2px solid lightgray;
+}
+
+
+
     .top-footer-title{
         color: rgb(142, 161, 225);
         font-size: 25px;
@@ -347,7 +353,6 @@ a{
 
 .footer-bar{
     background-color: rgb(73, 71, 71);
-    border-top: 2px solid lightgray;
     padding-top: 15px;
     padding-bottom: 15px;
 }
